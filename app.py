@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 
 app = Flask(__name__) 
 
-ALLOWED_EXTENSIONS = {'nii','nii.gz'}
+ALLOWED_EXTENSIONS = {'nii.gz'}
 
 def allowed_file(filename):
     return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
@@ -26,8 +26,7 @@ def predict():
             'result': result, 
         }
         return render_template('result.html', **data)
-
-
+    
     except:
         return redirect(url_for('error'))
         

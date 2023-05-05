@@ -8,7 +8,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Mezuniyet Tezi</title>
+  <title>Yapay Zeka Final Projesi</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -52,14 +52,14 @@
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
 
-      <h1 class="logo me-auto"><a href="#">Mezuniyet Tezi</a></h1>
+      <h1 class="logo me-auto"><a href="#">Yapay Zeka Final Projesi</a></h1>
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Ana Sayfa</a></li>
           <li><a class="nav-link scrollto" href="#about">Proje Hakkında</a></li>
           <li><a class="nav-link scrollto" href="#services">Hizmetler</a></li>
           <li><a class="nav-link scrollto" href="#faq">Sıkça Sorulan Sorular</a></li>
-          <li><a class="nav-link scrollto" href="#appointment">Tespit Etmek</a></li>
+          <li><a class="nav-link scrollto" href="#appointment">Segmentasyonu Başlat</a></li>
           <li><a class="nav-link scrollto" href="#contact">İletişim</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -71,8 +71,8 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
     <div class="container">
-      <h1>Zatürre Ön Tanı Uygulaması</h1>
-      <h2>Hastaya özel dicom formatında akciğer grafilerini işleyerek zatürre lezyonlarının tespitiyle hastalığın ön tanısına yardımcı oluyoruz. </h2>
+      <h1>CT İle 3D Karaciğer Tümör Segmentasyonu</h1>
+      <h2>Yüklenen kullanıcı NIFTI dosyası yardımıyla karaciğer tümör segmentasyonu gerçekleştiriyoruz. </h2>
       <a href="#appointment" class="btn-get-started scrollto">Başla</a>
     </div>
   </section><!-- End Hero -->
@@ -88,7 +88,7 @@
             <div class="content">
               <h3>Uygulamamızı neden kullanmalısınız?</h3>
               <p>
-               Zatürre ön tanı uygulamaları, hastalığın erken evrelerinde teşhis edilmesini sağlayarak hızlı ve etkili tedaviye olanak tanır. Erken teşhis, hastalığın ilerlemesini önleyebilir ve ciddi komplikasyonların oluşmasını engelleyebilir. Ayrıca, doğru teşhis edilmiş bir zatürre hastası, uygun tedavi yöntemleriyle daha hızlı iyileşebilir ve tedavi süreci daha az sancılı olabilir.
+                CT İle yüksek doğrulukta karaciğüer tümör segmentasyonu ile karaciğüer tümör tespitiniz kolaylaşmaktadır.
               </p>
               <div class="text-center">
                 <a href="https://www.who.int/health-topics/pneumonia#tab=tab_1" class="more-btn">Daha Fazla Öğren <i class="bx bx-chevron-right"></i></a>
@@ -101,22 +101,22 @@
                 <div class="col-xl-4 d-flex align-items-stretch">
                   <div class="icon-box mt-4 mt-xl-0">
                     <i class="bx bx-receipt"></i>
-                    <h4>Hızlı Ön Tanı</h4>
-                    <p>Yapay zeka algoritmalarının kullanımıyla, zatürre ön tanı uygulamaları yüksek güvenilirlik sağlayabilir. Bu sayede, doğru teşhis konulması ve doğru tedavinin uygulanması mümkün olabilir.</p>
+                    <h4>Hızlı Sonuç</h4>
+                    <p>Yapay zeka algoritmalarının kullanımıyla, Yüksek hızda doğru sonuçlar sunmaktadır.</p>
                   </div>
                 </div>
                 <div class="col-xl-4 d-flex align-items-stretch">
                   <div class="icon-box mt-4 mt-xl-0">
                     <i class="bx bx-cube-alt"></i>
                     <h4>Yüksek Güvenilirlik</h4>
-                    <p>Dijital görüntüleme teknolojileri kullanarak hızlı bir şekilde ön tanı koymayı mümkün kılar. Bu sayede, hastaların tedavi süreçleri hızlandırılabilir ve erken teşhisin sağladığı faydalar elde edilebilir.</p>
+                    <p>Taramalar CT ile gerçekleştirilir ve yüksek doğru sonuçlar sunmaktadır.</p>
                   </div>
                 </div>
                 <div class="col-xl-4 d-flex align-items-stretch">
                   <div class="icon-box mt-4 mt-xl-0">
                     <i class="bx bx-images"></i>
-                    <h4>Tedaviye Yönlendirme</h4>
-                    <p>Hastaların doğru bir şekilde tedavi edilmesini sağlayarak, tedaviye yönlendirme yapabilir. Bu sayede, gereksiz antibiyotik kullanımı gibi yan etkilerin önüne geçilebilir ve tedavi süreci daha etkili hale getirilebilir.</p>
+                    <h4>CT Taraması</h4>
+                    <p>Sistem yüksek doğrulukta CT taraması gerçekleştirebilir./p>
                   </div>
                 </div>
               </div>
@@ -142,19 +142,19 @@
             <div class="icon-box">
               <div class="icon"><i class="bx bx-fingerprint"></i></div>
               <h4 class="title"><a href="">Projenin Amacı</a></h4>
-              <p class="description">Zatürre hastalığının erken teşhis edilmesine yardımcı olmak, teşhis sürecinde hızlı ve doğru sonuçlar elde etmek, hastalığın ilerlemeden tedavi edilmesine olanak sağlamak.</p>
+              <p class="description">Karaciğer tümörü gibi zor bir hastalığın segmentasyonunu otonomlaştırarak kolaylaştırmaktır.</p>
             </div>
 
             <div class="icon-box">
               <div class="icon"><i class="bx bx-gift"></i></div>
               <h4 class="title"><a href="">Projenin Yöntemi</a></h4>
-              <p class="description">Yapay zeka teknolojileri ve DICOM formatı kullanılarak, akciğer görüntülerinin analizi yapılmaktadır. Yapay zeka algoritmaları, akciğerdeki anomali ve enfeksiyon belirtilerini tespit ederek, hastalığın teşhis edilmesine yardımcı olmaktadır.</p>
+              <p class="description">Yapay zeka teknolojileri ve NIFTI formatı kullanılarak, karaciğer CT görüntülerinin analizi yapılmaktadır. Yapay zeka algoritmaları, CT üzerinden segmentasyon yapmaktadır.</p>
             </div>
 
             <div class="icon-box">
               <div class="icon"><i class="bx bx-atom"></i></div>
               <h4 class="title"><a href="">Projenin faydaları</a></h4>
-              <p class="description">Yüksek güvenilirlik ve doğruluk oranı, hızlı ön tanı süreci, hastalığın erken teşhisi ile tedavi edilebilirliğinin artması, sağlık çalışanlarının iş yükünün azalması, hastaların daha az invaziv testlere maruz kalması ve teşhis maliyetlerinin düşürülmesi gibi avantajlar sağlamaktadır.</p>
+              <p class="description">Yüksek güvenilirlik ve doğruluk oranı, hızlı segmentasyon ortaya konulmasına yol açarak tedavi sürecini hızlandırabilmektedir.</p>
             </div>
 
           </div>
@@ -162,43 +162,6 @@
 
       </div>
     </section><!-- End About Section -->
-
-    <!-- ======= Counts Section ======= -->
-    <section id="counts" class="counts">
-      <div class="container">
-
-        <div class="row">
-
-          <div class="col-lg-4 col-md-6">
-            <div class="count-box">
-              <i class="fas fa-user-md"></i>
-              <span data-purecounter-start="0" data-purecounter-end="+20000" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Eğitim Verisi</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 mt-5 mt-md-0">
-            <div class="count-box">
-              <i class="far fa-hospital"></i>
-              <span data-purecounter-start="0" data-purecounter-end="+2000" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Test Verisi</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 mt-5 mt-lg-0">
-            <div class="count-box">
-              <i class="fas fa-flask"></i>
-              <span data-purecounter-start="0" data-purecounter-end="85" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Doğruluk Oranı</p>
-            </div>
-          </div>
-
-     
-
-        </div>
-
-      </div>
-    </section><!-- End Counts Section -->
 
     <!-- ======= Services Section ======= -->
     <section id="services" class="services">
@@ -213,24 +176,24 @@
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
             <div class="icon-box">
               <div class="icon"><i class="fas fa-heartbeat"></i></div>
-              <h4><a href="">Otomatik Tanı</a></h4>
-              <p>Uygulama, görüntüleri analiz ederek zatürre tespiti yapabilir ve sonucu kullanıcıya sunabilir.</p>
+              <h4><a href="">Karaciğer Segmentasyonu</a></h4>
+              <p>Uygulama, görüntüleri analiz ederek karaciğer segmentasyonu yapabilir ve sonucu kullanıcıya sunabilir.</p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
             <div class="icon-box">
               <div class="icon"><i class="fas fa-pills"></i></div>
-              <h4><a href="">Zatürre Lezyon Tespiti</a></h4>
-              <p>CAM algoritması aracalığıyla akciğer grafisi üzerinden zatürre lezyon tespitinin gerçekleştirebilir.</p>
+              <h4><a href="">CT Analizi</a></h4>
+              <p>CT ile animasyon oluşturarak bütün görüntüde analiz gerçekleştirebilmektedir.</p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
             <div class="icon-box">
               <div class="icon"><i class="fas fa-hospital-user"></i></div>
-              <h4><a href="">Kalp Tespiti</a></h4>
-              <p>Akciğer grafisinin doğru bir biçimde çekildiğini anlamak ve kalbin konumunun tespit edilmesi için kullanılabilir</p>
+              <h4><a href="">Güvenilirlik</a></h4>
+              <p>Verilen CT görüntüsü yüksek güvenilirlik ile güvenli sistemlerde işlenmekte olup geçiçi dosyalar işlem sonunda silinmektedir.</p>
             </div>
           </div>
 
@@ -253,47 +216,43 @@
            <div class="faq-list">
              <ul>
                <li data-aos="fade-up">
-                 <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">Zatürre nedir ve neden oluşur? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                 <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">Karaciğer tümörü nedir ve neden oluşur? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                  <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
                    <p>
-                     Zatürre, akciğer dokusunun enfeksiyonu sonucu oluşan bir akut solunum yolu enfeksiyonudur. Genellikle bakteriyel enfeksiyonlar neden olur, ancak virüsler ve mantarlar da zatürreye neden olabilir. Sigara içmek, solunum yolu enfeksiyonlarına yatkınlığı artıran kronik hastalıklar ve bağışıklık sistemi sorunları gibi faktörler, zatürre riskini artırabilir.
+                    Karaciğer tümörü, karaciğerde anormal hücre büyümesidir ve nedenleri arasında kronik karaciğer hastalığı, alkol tüketimi, aşırı kilo, viral enfeksiyonlar ve genetik faktörler yer alır. Ancak tam nedenleri tam olarak anlaşılamamıştır.
                   </p>
                  </div>
                </li>
    
                <li data-aos="fade-up" data-aos-delay="100">
-                 <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">Zatürre hastalığında ön tanı neden önemlidir? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                 <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">karaciğer tümörü segmentasyonu neden önemlidir?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                  <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
                    <p>
-                     Zatürre hastalığında ön tanı, hastalığın daha erken dönemlerinde teşhis edilmesini ve tedavi sürecinin başlamasını sağlayarak hastalığın ilerlemesini engelleyebilir. Bu da hastalığın tedavi edilebilirliğini artırabilir ve hastanın iyileşme şansını artırabilir.
-                  </p>
+                    Karaciğer tümörü segmentasyonu, bir tümörün yerini ve boyutunu belirlemek için karaciğer görüntüleri üzerinde yapılır. Bu segmentasyon işlemi, tümörün daha doğru bir şekilde değerlendirilmesine ve tedavi planının hazırlanmasına yardımcı olur.                  </p>
                  </div>
                </li>
    
                <li data-aos="fade-up" data-aos-delay="200">
-                 <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">DICOM nedir ve nasıl kullanılır?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                 <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">NIfTI nedir ve nasıl kullanılır?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                  <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
                    <p>
-                     DICOM (Digital Imaging and Communications in Medicine) tıbbi görüntüleme cihazları tarafından üretilen ve kaydedilen verilerin standardize edilmiş bir biçimde saklanması ve paylaşılmasını sağlayan bir protokoldür. Bu sayede farklı tıbbi cihazlar arasında veri alışverişi yapmak mümkün olur. DICOM, radyoloji, nükleer tıp, patoloji ve diğer tıbbi görüntüleme alanlarında kullanılır. DICOM verileri genellikle PACS (Picture Archiving and Communication System) adı verilen bir sistem üzerinden saklanır ve paylaşılır.
-                   </p>
+                    NIfTI (Neuroimaging Informatics Technology Initiative) veri formatı, nörobilim araştırmalarında sıklıkla kullanılan bir veri formatıdır. NIfTI, manyetik rezonans görüntüleme (MRI) verilerini saklamak ve paylaşmak için tasarlanmıştır.                   </p>
                  </div>
                </li>
    
                <li data-aos="fade-up" data-aos-delay="300">
-                 <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">Zatürre tespiti için yapay zeka (AI) teknolojisi ve DICOM arasındaki ilişki nedir?  <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                 <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">Karaciğer Tümör Segmentasyonu için yapay zeka (AI) teknolojisi ve NIfTI arasındaki ilişki nedir?  <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                  <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
                    <p>
-                     DICOM (Digital Imaging and Communications in Medicine), medikal görüntüleme cihazları tarafından üretilen verilerin depolanması ve iletimi için standart bir formattır. Zatürre tanısı için, DICOM formatındaki akciğer görüntüleri yapay zeka algoritmaları tarafından analiz edilebilir ve hastalığın tespit edilmesine yardımcı olabilir
-                  </p>
+                    Karaciğer tümörü segmentasyonu için yapay zeka teknolojisi, NIfTI veri formatı ile birlikte kullanılabilir. Yapay zeka algoritmaları, karaciğer görüntülerini otomatik olarak analiz etmek ve tümörlerin yerini, boyutunu ve şeklini belirlemek için kullanılabilir                  </p>
                  </div>
                </li>
    
                <li data-aos="fade-up" data-aos-delay="400">
-                 <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed">Gelecekte DICOM ve yapay zeka teknolojilerinin zatürre tespiti alanında nasıl kullanılması planlanmaktadır? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                 <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed">Gelecekte NIfTI ve yapay zeka teknolojilerinin karaciğer tümör segmentasyonu alanında nasıl kullanılması planlanmaktadır? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                  <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
                    <p>
-                     Gelecekte DICOM ve yapay zeka teknolojileri, zatürre tespiti alanında otomatik tarama ve tanıma sistemleri geliştirerek kullanılabilir. Yapay zeka algoritmaları, akciğer görüntülerini analiz ederek zatürre lezyonlarını tespit edebilir ve teşhis sürecini hızlandırabilir.
-                   </p>
+                    Gelecekte NIfTI ve yapay zeka teknolojilerinin karaciğer tümör segmentasyonu alanında kullanımı, daha doğru tanı ve tedavi yöntemlerinin geliştirilmesine olanak tanıyacak ve hastaların tedavisi için daha kişiselleştirilmiş bir yaklaşım sağlayacaktır.                   </p>
                  </div>
                </li>
    
@@ -310,7 +269,7 @@
 
         <div class="section-title">
           <h2>Karaciğer Tümörü Segmentasyonu</h2>
-          <p>Lütfen dicom dosya formatında akciğer grafinizi yükleyiniz.</p>
+          <p>Lütfen NIfTI dosya formatında karaciğer CT görüntüsünü yükleyiniz.</p>
         </div>
 
         <form method="POST" enctype="multipart/form-data" action = "{{ url_for('predict') }}" role="form">
@@ -318,7 +277,7 @@
            <label for="fileInput" class="form-label">Dosya Seçin</label>
            <input type="file" class="form-control" id="fileInput" name="file">
          </div>
-         <div class="text-center"><button class="btn btn-success mt-4" type="submit">Ön Tanı İşlemlerini Başlat</button></div>
+         <div class="text-center"><button class="btn btn-success mt-4" type="submit">Segmentasyon İşlemlerini Başlat</button></div>
        </form>
 
       </div>
@@ -347,9 +306,8 @@
           <div class="col-lg-6 col-md-6 footer-links">
             <h4>Hizmetlerimiz</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Otomatik Tanı</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Zatürre Lezyon Tespiti</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Kalp Tespiti</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Karaciğer Tümör Segmentasyonu</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">CT İle Yüksek Doğruluk</a></li>
             </ul>
           </div>
 
